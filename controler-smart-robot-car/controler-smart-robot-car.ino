@@ -45,6 +45,16 @@ void right(){
   Serial.println("Right");
 }
 
+void stop(){
+  digitalWrite(ENA,LOW);
+  digitalWrite(ENB,LOW);
+  digitalWrite(IN1,LOW);
+  digitalWrite(IN2,LOW);
+  digitalWrite(IN3,LOW);
+  digitalWrite(IN4,LOW);
+  Serial.println("Stop");
+}
+
 void setup() {
   Serial.begin(9600);
   pinMode(IN1,OUTPUT); 
@@ -62,6 +72,7 @@ void setup() {
   delay(1000);
   right();   
   delay(1000);
+  stop();
 }
 
 void loop() {
