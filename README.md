@@ -10,3 +10,4 @@ Une fois l'application est bien connectée au robot par bluetooth, aller dans la
 et sur l'une des cases vides : ![image](https://github.com/user-attachments/assets/07ac3de1-205b-4521-9816-2c8f19ae890f) <br>
 maintenir pour personnaliser l'instruction que ce bouton va faire lorsqu'on appuie dessus. ![image](https://github.com/user-attachments/assets/83eb1317-2214-44b4-bcda-884ebc06be90) <br>
 Le nom va apparaître comme texte sur le bouton et on met dans "Message (s)" l'instruction du bouton (f pour que la voiture avance, l pour aller à gauche, r pour aller à droite, b pour reculer et s pour que la voiture s'arrête).
+![image](https://github.com/user-attachments/assets/59d93d5b-436e-4993-8b05-8692ea28cd74)
