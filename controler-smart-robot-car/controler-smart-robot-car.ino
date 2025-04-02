@@ -53,9 +53,7 @@ void setup() {
   pinMode(IN4,OUTPUT);
   pinMode(ENA,OUTPUT);
   pinMode(ENB,OUTPUT);
-}
 
-void loop() {
   forward();  
   delay(1000);
   back();    
@@ -64,4 +62,8 @@ void loop() {
   delay(1000);
   right();   
   delay(1000);
+}
+
+void loop() {
+
 }
