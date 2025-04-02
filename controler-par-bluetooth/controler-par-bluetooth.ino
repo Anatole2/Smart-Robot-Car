@@ -38,6 +38,8 @@ void left(){
   digitalWrite(IN3,LOW);
   digitalWrite(IN4,HIGH); 
   Serial.println("Left");
+  delay(300);
+  stop(); 
 }
 
 void right(){
@@ -48,6 +50,8 @@ void right(){
   digitalWrite(IN3,HIGH);
   digitalWrite(IN4,LOW);
   Serial.println("Right");
+  delay(300);
+  stop();  
 }
 
 void stop(){
